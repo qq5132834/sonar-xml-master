@@ -1,0 +1,33 @@
+{
+  "title": "Restrict access to exported components with appropriate permissions",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "10min"
+  },
+  "tags": [
+    "cwe",
+    "android",
+    "sans-top25-porous"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-5594",
+  "sqKey": "S5594",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      926
+    ],
+    "OWASP Mobile": [
+      "M2"
+    ],
+    "MASVS": [
+      "MSTG-PLATFORM-1"
+    ],
+    "CERT": [
+      "SEC50-J."
+    ]
+  },
+  "quickfix": "unknown"
+}

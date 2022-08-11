@@ -1,0 +1,6 @@
+<root>
+    <tag>
+	    <yolo></yolo> <!-- OK with tabs 1x tab + 4x space -->
+	</tag>
+  <otherTag /> <!-- Noncompliant {{Make this line start after 4 spaces to indent the code consistently.}} -->
+</root>
